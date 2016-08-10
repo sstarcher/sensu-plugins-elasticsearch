@@ -8,6 +8,9 @@ This CHANGELOG follows the format listed at [Keep A Changelog](http://keepachang
 - Added AWS transport gem and configuration for check-es-query-* sensu calls to use --transport=AWS
 - Update metrics-es-node-graphite.rb and check-es-node-status.rb for Elasticsearch 2.0
 
+### Fixed
+- check-es-indicies-size.rb - broken for newer updates
+
 ## [0.5.3] - 2016-04-02
 ### Added
 - check-es-indexes (check for dup indexes) (Yieldbot)
